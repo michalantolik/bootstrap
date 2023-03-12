@@ -26,6 +26,15 @@
 - **Download** --> *compiled and minified*
 - **Compile** --> *from download source files --> on your own*
 
+## Bootstrap - Grid Concepts
+- **Container** --> *to initialize grid system* --> `container`, `container-sm`, ... , `container-xxl`, `container-fluid`
+- **Rows** and **Columns** --> *each row has 12 columns*
+ - ... will stack if more columns are added
+- **Breakpoints** --> *page widths on which layout will "adapt" to different arrangement*
+  - ... make page "responsive"
+  - ... can be customized --> *often not needed*
+  - ... based on media queries
+
 ## Bootstrap - Used by myself
 - `btn`, `btn-success`, `btn-info`
 - `alert`, `alert-success`

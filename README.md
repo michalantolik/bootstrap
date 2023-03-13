@@ -30,6 +30,7 @@
 - **Container** --> *to initialize grid system* --> `container`, `container-sm`, ... , `container-xxl`, `container-fluid`
 - **Rows** and **Columns** --> *each row has 12 columns*
  - ... will stack if more columns are added
+ - ... 12 columns in a row can be overriden using `class="row row-cols-x"`
 - **Breakpoints** --> *page widths on which layout will "adapt" to different arrangement*
   - ... make page "responsive"
   - ... can be customized --> *often not needed*
@@ -42,3 +43,7 @@
 - `mt-3`
 - `fw-bolder`, `fw-normal`, `fst-italic`
 - `rounded`
+- `col-md-6 order-5`
+- `col-md-4 offset-md-6`
+- `row gx-4`
+- `float-end`
